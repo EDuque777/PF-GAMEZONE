@@ -1,0 +1,482 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container{
+  /* outline: red solid 3px; */
+  display: flex;
+  height: auto;
+  width: 100vw;
+  flex-direction: column;
+  background: url("../../assets/Imagen1.png");
+  backdrop-filter: blur(10px);
+  background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+}
+
+.container_juego{
+  /* outline: red solid 3px; */
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  align-content: center;
+  background: #232323;
+}
+
+
+
+.container_texto{
+  /* outline: yellow solid 3px; */
+  display: flex;
+  width: 48%;
+  height: 500px;
+  flex-direction: column;
+  background: #070606;
+  margin: 3% 1.5rem;
+}
+
+.container_imagenes{
+  /* outline: pink solid 3px; */
+  display: flex;
+  width: 48%;
+  height: 500px;
+  margin: 3% 1.5rem;
+  flex-direction: column;
+
+  
+}
+
+.image{
+  /* outline: blue solid 3px; */
+  display: flex;
+  height: 75%;
+  width: 100%;
+}
+
+.container_screenshots{
+  /* outline: orange solid 3px; */
+  display: flex;
+  height: 25%;
+  width: 100%;
+}
+
+.container_videos{
+  /* outline: orange solid 3px; */
+  display: flex;
+  height: 25%;
+  width: 100%;
+}
+
+
+
+
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.descripcion{
+  /* outline: green solid 3px; */
+  display: flex;
+  height: 400px;
+  width: 100%;
+  overflow-y: scroll;
+  font-size: 1.25rem;
+  color:  rgb(206, 206, 206);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  
+}
+
+
+
+.name{
+  font-size: 2.5rem;
+  display: flex;
+  width: 100%;
+  background-color: #343434;
+  color: rgb(206, 206, 206);
+}
+
+
+
+.texto_comprar{
+  /* outline: green solid 3px; */
+  font-size: 2rem;
+  color:  rgb(206, 206, 206);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  background-color: #343434;
+  display: flex;
+  height: 100%;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  font-size: 27px;
+}
+
+.texto_precio{
+  /* outline: pink solid 3px; */
+  display: flex;
+  width: 45%;
+  margin-left: 10px;
+}
+
+.texto_boton{
+  /* outline: green solid 3px; */
+  display: flex;
+  width: 65%;
+  height: 75%;
+  margin-left: 10px;
+  flex-direction: column;
+  margin-right: 10px;
+  
+}
+
+.comprar{
+  /* outline: rosybrown solid 3px; */
+  display: flex;
+  height: 20%;
+  width: 100%;
+  align-items: center;
+  background-color: #343434;
+  justify-content: center;
+
+
+ 
+}
+
+.precio{
+  display: flex;
+  color: white;
+  outline: red solid 3px;
+ 
+  
+}
+
+.div_comprar{
+  /* outline: blue solid 3px; */
+  display: flex;
+  color:  rgb(206, 206, 206);
+  font-size: 1.25rem;
+  width: 300px;
+  height: 70px;
+  background-color: #050505;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.buttonadd{
+  /* outline: yellow solid 3px; */
+  display: flex;
+  width: 100%;
+  height: 45%;
+  background-color: #4caf50;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  margin-right: 5px;
+}
+
+.buttonadd:hover {
+  background-color: #45a049;
+}
+
+.buttonWish{
+  /* outline: yellow solid 3px; */
+  display: flex;
+  width: 100%;
+  height: 45%;
+  background-color: #c8a74b;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  margin-top: 2.5%;
+}
+
+.buttonWish:hover {
+  background-color: #c69510;
+}
+
+.detail_container{
+  /* outline: green solid 3px; */
+  display: flex;
+  width: 90%;
+  height: 70%;
+  margin: 1rem auto;
+  justify-content: space-around;
+  background-color: #232323;
+  align-items: center;
+  max-height: fit-content;
+  box-sizing: content-box;
+ 
+  
+  
+}
+
+
+
+
+.detail_left{
+  /* outline: blue solid 3px; */
+  display: flex;
+  height: 530px;
+  width: 48%;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #343434;
+  max-height: fit-content;
+  box-sizing: content-box;
+  margin:  3% 1.5rem;
+ 
+}
+
+.detail_rigth{
+  /* outline: blue solid 3px; */
+  display: flex;
+  height: 530px;
+  width: 48%;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #343434;
+  max-height: fit-content;
+  box-sizing: content-box;
+  margin:  3% 1.5rem;
+}
+
+.detail_left h2{
+  font-size: 1.25rem;
+  display: flex;
+  margin:  10px;
+
+}
+
+.detail_rigth h2{
+  font-size: 1.25rem;
+  display: flex;
+  margin:  10px;
+
+}
+
+
+.detail_left p{
+  justify-content: center;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.detail_rigth p{
+  justify-content: center;
+  text-align: left;
+  margin: 0 10px;
+}
+
+
+
+.reviews_container{
+  /* outline: yellow solid 3px; */
+  display: flex;
+  width: 90%;
+  height: 1000px;
+  margin: 1rem auto;
+  background-color: #232323;
+  max-height: fit-content;
+  box-sizing: content-box;
+  /* overflow: scroll; */
+  
+}
+
+.promedio{
+  /* outline: blue solid 3px; */
+  display: flex;
+  height: 380px;
+  width: 300px;
+  color: white;
+  flex-direction: column;
+  background-color: #343434;
+  margin-left:  100px; 
+  margin-top: 100px; 
+
+}
+
+
+.promedioInfo{
+  /* outline: yellow solid 3px; */
+  margin-left: 8%;
+  margin-right: 8%;
+  flex-direction: column;
+
+  
+}
+
+
+
+.promedioNumber2{
+  /* outline: pink solid 3px; */
+  display: flex;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+
+
+.cantidadReviews{
+  /* outline: red solid 3px; */
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.numeroReviews {
+  margin-right: 7px;
+}
+
+.ratingCount {
+  /* outline: pink solid 3px; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.starRating {
+  display: flex;
+  align-items: center;
+}
+
+.ratingNumber {
+  margin-right: 5px;
+}
+
+.star {
+  color: white;
+}
+
+.bar {
+  /* outline: green solid 3px; */
+  flex-grow: 1;
+  height: 10px;
+  background-color: #232323;
+  margin-left: 5px;
+}
+
+.fill {
+  height: 100%;
+  background-color: rgb(93, 93, 93);
+}
+
+.ratingPercentage {
+  margin-left: 5px;
+}
+
+
+
+.opiniones{
+  /* outline: green solid 3px; */
+  display: flex;
+  height: auto;
+  width: 70%;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+  max-height: fit-content;
+  box-sizing: content-box;
+  margin:  100px;
+  overflow-y: scroll;
+  
+}
+
+
+
+.opinion{
+  /* outline: yellow solid 3px; */
+  display: flex;
+  min-height: 200px;
+  width: 100%;
+  color: white;
+  background-color: #343434; 
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* overflow: hidden; */
+}
+
+.opiniontop{
+  /* outline: white solid 3px; */
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+.opinionback{
+  /* outline: red solid 3px; */
+  height: 70%;
+  width: 100%;
+  margin: 10px;
+}
+.opiniontopleft{
+  /* outline: blue solid 3px; */
+  height: 100%;
+  width: 10%;
+  align-items: center;
+
+  
+}
+
+.opiniontopright{
+  /* outline: pink solid 3px; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.opiniontopright h3,
+.opiniontopright p {
+  margin: 0;
+}
+
+
+
+.opinion h3,
+.opinion p:first-of-type {
+  margin-bottom: 3px;
+}
+
+
+.profileImage{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+

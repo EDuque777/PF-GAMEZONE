@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500%27');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500');
+
+.img {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.NaV {
+    list-style-type: none;
+    display: flex;
+    margin: 10;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+.NaV>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin: auto;
+    padding-right: 27px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.cart_icon{
+    font-size: 30px; 
+}
+.cart_count {
+    position: absolute;
+    font-weight: bold;
+    top: 47px;
+    right: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #fd7200;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.NaV>li>a:hover {
+    color: #5b5a5c;
+}
+
+.fixedNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #141414;
+    height: 72px;
+    z-index: 900 !important;
+    transition: 2.0s ease all;
+}
+  
+
+.usuario {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-radius: 50px;
+}
+
+.usuarioContainer {
+    position: relative;
+}
+
+.submenu {
+    background-color: #696767;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 94%;
+    right: 50px;
+    width: 100px;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.submenu_item {
+    display: block;
+    padding: 0px;
+    transition: background-color 0.3s ease;
+}
+
+.submenu_item:hover {
+    background-color: #f5f5f5;
+}
+
+.submenu_item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.submenu_item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.submenu_item:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.submenu>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid #cccccc83; 
+}
+
+.submenu>li:last-child {
+    border-bottom:none;
+}
+
+
+.submenu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.submenu li a:hover {
+    color: #5b5a5c;
+}
+
+
+
+.login_button {
+    background-color: #7800A2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+}
+
+
+.login_button:hover {
+    background-color: #7700a2;
+    box-shadow: 0 2px 6px #b906fad7;
+
+}
+
+
+.login_button:active {
+    background-color: #7700a2d7;
+}

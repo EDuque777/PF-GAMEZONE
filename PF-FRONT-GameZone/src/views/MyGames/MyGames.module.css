@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  outline: 1px solid red;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.cardContainer {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  outline: 1px solid rgb(255, 255, 255);
+  width: 80%;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cardPreview {
+  outline: 6px solid rgb(41, 20, 178);
+  color: white;
+  flex: 1; /* Ocupar el espacio restante */
+}
+
+.title {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.card {
+  width: calc(30% - 10px); /* Calcular el ancho con margen entre las tarjetas */
+  margin-bottom: 10px;
+  outline: rgb(255, 4, 4) solid 1px;
+  background-color: rgb(10, 1, 21);
+}
+
+.titleName {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #c8a74b;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%; /* Cambia el ancho a 100% */
+}
+
+.button:hover {
+  background-color: #c69510;
+}

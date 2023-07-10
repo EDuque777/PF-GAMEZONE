@@ -1,0 +1,98 @@
+.text{
+    color: wheat
+}
+.container{
+    background-color: rgb(49, 49, 49);
+
+}
+.principaltitle{
+    font-size: 35px;
+    color: rgb(255, 251, 247);
+}
+.arrowprev{
+    height: 2%;
+    width: 2%;
+    cursor: pointer;
+}
+.arrownext{
+    height: 2%;
+    width: 2%;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.punto{
+    margin-top: 4px;
+    height: 1.5%;
+    width: 1.5%;
+    cursor: pointer;
+
+}
+.selected{
+    margin-top: 4px;
+    height: 2.5%;
+    width: 2.5%;
+    cursor: pointer;
+
+    margin-left: -2px;
+}
+.paginado{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    }
+.name{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+    .containerimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+.image{
+    border-radius: 10px;
+}
+.tarjeta{
+    cursor: pointer;
+}
+
+
+/* ...otros estilos... */
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+  }
+  
+  .active .image {
+    transition: 500ms;
+  }
+  
+  /* ...otros estilos... */
+  
+  .imageWrapper {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .tarjeta:not(.active) .imageWrapper {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .tarjeta.active .imageWrapper {
+    opacity: 1;
+    pointer-events: auto;
+  }

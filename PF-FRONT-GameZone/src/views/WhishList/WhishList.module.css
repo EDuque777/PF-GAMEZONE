@@ -1,0 +1,42 @@
+.titleCarrito {
+    color: white;
+  }
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.juegosContainer{
+    margin: 10px ;
+    display: flex;
+    border-radius: 10px;
+    width: 50%;
+    justify-content: space-around;
+    background-color: #2E2E2E;
+}
+
+.cajitaItems {
+    display: flex;
+    background-color: #202020;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+}
+
+.li{
+    margin: 10px 0;
+}
+
+.emptyCart {
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+  }

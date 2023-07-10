@@ -1,0 +1,77 @@
+.body_form{
+	/* align-items: center; */
+	background-color: #242323;
+	background: url("../../assets/GameZone\ Wp.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+    height: 1000px;
+}
+
+
+
+.total_container{
+    /* outline: yellow solid 3px; */
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+    margin-left: 55%;
+}
+
+.texto_review{
+    height: 500px;
+    width: 90%;
+    background-color: #242323;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    margin: auto;
+}
+
+.review{
+    font-size: 30px;
+	color: #ffffff;
+    margin: 20px;
+}
+
+.rating{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .star {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .starFilled {
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  .button{
+    background-image: linear-gradient(90deg, var(--purple) 0%, var(--lightpurple) 74%);
+	border-radius: 20px;
+	border: 1px solid var(--purple);
+	color: white;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin: 20px;
+  }

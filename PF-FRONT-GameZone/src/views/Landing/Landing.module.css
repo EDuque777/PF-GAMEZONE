@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Higher;
+  src: url("../../fonts/Higher.woff");
+}
+
+.container {
+  position: relative;
+  height: 90.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("https://media.istockphoto.com/id/1334436084/es/foto/vista-de-arriba-hacia-abajo-de-coloridos-accesorios-de-juego-iluminados-sobre-la-mesa.jpg?s=612x612&w=0&k=20&c=fcCloH-zF7rFZzUYq6-jFpbEuq5DiipnHX5ZZWHRThE=");
+  filter: blur(5px);
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  width: 600px;
+  height: auto;
+  margin-bottom: 1rem;
+  animation: animarImagen 2s ease-in-out ; /* Aplica la animación */
+}
+
+@keyframes animarImagen {
+  0% { transform: scale(0.5); } /* Estado inicial */
+  50% { transform: scale(1); } /* Escala al 110% a la mitad de la animación */
+  100% { transform: scale(1); } /* Vuelve al estado inicial */
+}
+
+  .enlarged {
+    width: 900px; 
+    height: auto; 
+  }
+  
+
+
+  .button{
+    background-color: transparent;
+    color: #eef449;
+    font-size: 4rem;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-family: "Higher";
+    transition: color 0.2s;
+    font-weight: bold;
+    transition: 500ms;
+}
+.button:hover{
+  font-size: 6rem;
+  transition: 500ms;
+}
+
+.heading {
+    color: white;
+    font-size: 3rem;
+    
+  }
+
+  .subHeading{
+    color: rgb(224, 220, 220);
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+  }
